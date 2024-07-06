@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightMind University - Coming Soon</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f3f1;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #00bbb1;
+            font-size: 2em;
+        }
+        h1 span {
+            color: #f3903d;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    {% load static %}
+    <div class="container">
+        <img src="{% static 'images/logo.png' %}" alt="RightMind University Logo" class="logo">
+        <h1>RIGHTMIND <span>UNIVERSITY</span></h1>
+        <p><em>Coming soon...</em></p>
+        <p><strong>Powered by Xurshid bro</strong></p>
+        <footer>
+            <p>© 2024 RightMind University</p>
+        </footer>
+    </div>
+</body>
+</html>
